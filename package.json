@@ -11,13 +11,19 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.runDevice"
+        "onCommand:extension.runDevice",
+        "onCommand:extension.refreshList"
+
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [{
             "command": "extension.runDevice",
             "title": "Android Device: Run"
+        },
+        {
+            "command": "extension.refreshList",
+            "title": "Android Device: Refresh List"
         }]
     },
     "scripts": {
