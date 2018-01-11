@@ -1,7 +1,6 @@
 # android-devices README
 
-This is the README for your extension "android-devices". After writing up a brief description, we recommend including the following sections.
-
+Extension that allows you to manage Android Devices and launch them, allowing you to run a device without leaving VS Code
 ## Features
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
